@@ -6,10 +6,10 @@ This project demonstrates how to use threads to download files faster by splitti
 ---
 
 ## 🚀 Features
-- Single-threaded & multi-threaded versions for comparison
-- Real-time download progress using `tqdm`
-- Automatic chunk merging
-- Exception handling for failed downloads
+- Single-threaded & multi-threaded versions for comparison  
+- Real-time download progress using `tqdm`  
+- Automatic chunk merging  
+- Exception handling for failed downloads  
 - Simple and lightweight (no external config)
 
 ---
@@ -26,10 +26,29 @@ This project demonstrates how to use threads to download files faster by splitti
 
 ## ⚙️ Setup
 
-1️⃣ Clone or download this repository.  
-2️⃣ (Optional) Create a virtual environment:
+1️⃣ **Clone or download this repository**
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+git clone https://github.com/<your-username>/multithreaded-file-downloader.git
+cd multithreaded-file-downloader
+
+
+Example output:
+Starting download: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-zip-file.zip
+ Download complete: sample.zip
+ Time taken: 0.73 seconds
 ```
+
+🧠 Concepts Used
+threading.Thread for concurrency
+requests for network I/O
+tqdm for progress tracking
+File I/O and chunk merging
+Performance benchmarking with time.perf_counter()
+Exception handling and logging
+
+Author
+Yash Patil
+🎓 Northeastern University, Boston
+💼 Aspiring Software Development Engineer
+⭐ If you found this project helpful, consider giving it a star on GitHub!
